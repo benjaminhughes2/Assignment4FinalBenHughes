@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width_device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=style.css>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Benjamin Hug<span>hes</span></a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+               <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+<!-- home section start -->
+<section class="home" id="home">
+    <div class="max-width">
+        <div class="home-content">
+            <div class="text-1">My name is</div>
+            <div class="text-2">Benjamin Hughes</div>
+            <div class="text-3">I am a <span>UX Designer</span></div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- my angle section -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">My Angle</h2>    
+            <div class="about-content">
+                <div class="column left">
+                    <img src="img/myangle.jpg" alt="">
+            </div>
+            <div class="column right">
+                <div class="text">
+                    <p>After being introduced to the Adobe Suite by my older brother when I was about 12 years old, I quickly became obsessed. The passion, which started with me photoshopping photographs I had taken, rapidly turned to me constantly creating interfaces with these applications. As a UX Student at Wilfred Laurier University, I am able to apply what I have learned over the years and provide a unique optic on user experience design.</p><p></p><p>Through my work, I apply a strong focus on creating for users with disabilities. This applies to both physical and mental disabilities that much of our population faces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Work section -->
+    <section class="work" id="Work">
+        <div class="max-width">
+            <div class="column left">
+                <img src="img/AVSlide1.png">
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <!--contact section-->
+    
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <form id="contact form" form action="http://localhost:3002/send" method="POST">
+                <p><label>Name:</label> <input type="text" required /><placeholder="name" /><br /></p>
+                 <p><label>Email:</label><input type="email" /><placeholder="email" required /><br /></p>
+                 <p><label>Phone Number:</label><input type="Phone Number" /><placeholder="Phone"/><br /></p>
+                 <p><label>Message:</label></p><textarea name="message" placeholder="type your message here" required></textarea><br /></p>
+                 <p><input type="submit"/><input type="reset"/></p>
+        </div>
+    </section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
